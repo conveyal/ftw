@@ -1,0 +1,16 @@
+<body>
+  <div id="form"></div>
+  <script src="ftw.js"></script>
+  <script>
+    FromToWhen(document.getElementById('form'), {
+      apiKey: '',
+      boundary: {
+        country: 'USA'
+      },
+      clearable: false,
+      focusLatlng: {lat: 39.7691, lng: -86.1570},
+      submitText: 'Search',
+      url: 'http://www.carfreeatoz.com/planner'
+    })
+  </script>
+</body>
