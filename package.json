@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/conveyal/ftw",
   "dependencies": {
-    "debounce": "^1.0.0",
     "isomorphic-fetch": "^2.2.1",
     "normalize.css": "^3.0.3",
-    "react-select": "^1.0.0-beta8"
+    "react-select": "^1.0.0-beta8",
+    "throttleit": "^1.0.0"
   },
   "peerDependencies": {
     "react": "^0.14.6",
