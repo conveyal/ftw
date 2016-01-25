@@ -4,10 +4,10 @@
   "description": "From? To? When?",
   "main": "lib/form.js",
   "scripts": {
-    "dist": "browserify lib/index.js -s FromToWhen -t [ babelify --presets [ es2015 react stage-0 ] ] -t [ browserify-css --minify ] | uglifyjs -cm > dist/ftw.js",
+    "dist": "NODE_ENV=production browserify lib/index.js -s FromToWhen -t [ babelify --presets [ es2015 react stage-0 ] ] -t [ browserify-css --minify ] | uglifyjs -cm > dist/ftw.js",
     "test-dist": "open dist/index.html",
     "lint": "standard",
-    "start": "budo index.js --live --open -- -t [ babelify --presets [ es2015 react stage-0 ] ] -t browserify-css -t envify"
+    "start": "budo example.js --live --open -- -t [ babelify --presets [ es2015 react stage-0 ] ] -t browserify-css -t envify"
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,11 @@
     "debounce": "^1.0.0",
     "isomorphic-fetch": "^2.2.1",
     "normalize.css": "^3.0.3",
-    "qs": "^6.0.2",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
     "react-select": "^1.0.0-beta8"
+  },
+  "peerDependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.6",
@@ -43,6 +44,7 @@
     "browserify-css": "^0.8.4",
     "budo": "^8.0.0",
     "envify": "^3.4.0",
+    "qs": "^6.0.2",
     "standard": "^5.4.1",
     "uglify-js": "^2.6.1"
   },
