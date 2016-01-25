@@ -1,4 +1,4 @@
-import attach from './lib'
+import attach from './index'
 import qs from 'qs'
 
 const div = document.createElement('div')
