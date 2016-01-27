@@ -31,10 +31,8 @@
   },
   "homepage": "https://github.com/conveyal/ftw",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
     "normalize.css": "^3.0.3",
-    "react-select": "^1.0.0-beta8",
-    "throttleit": "^1.0.0"
+    "react-select-geocoder": "0.0.1"
   },
   "peerDependencies": {
     "react": "^0.14.6",
