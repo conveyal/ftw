@@ -1,6 +1,6 @@
 {
   "name": "from-to-when",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "From? To? When?",
   "main": "./build/form",
   "babel": {
@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/conveyal/ftw",
   "dependencies": {
-    "normalize.css": "^3.0.3",
     "react-select-geocoder": "0.0.1"
   },
   "peerDependencies": {
@@ -49,6 +48,7 @@
     "browserify-css": "^0.8.4",
     "budo": "^8.0.0",
     "envify": "^3.4.0",
+    "normalize.css": "^3.0.3",
     "qs": "^6.0.2",
     "standard": "^5.4.1",
     "uglify-js": "^2.6.1"
