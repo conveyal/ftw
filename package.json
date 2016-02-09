@@ -1,6 +1,6 @@
 {
   "name": "from-to-when",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "From? To? When?",
   "main": "./build/form",
   "babel": {
