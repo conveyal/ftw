@@ -1,6 +1,31 @@
-@import url("node_modules/normalize.css/normalize.css");
 @import url("node_modules/react-select/dist/react-select.min.css");
 
 .FromToWhen {
+  background-color: #10638e;
+  width: 540px;
+  padding: 5px;
+  color: #fff;
+  margin: 20px auto;
+}
 
+.FromToWhen .Select-input {
+  color: #10638e;
+}
+
+.FromToWhen .Select-control {
+  margin-bottom: 8px;
+}
+
+.FromToWhen-When select {
+  margin: 0 8px 8px;
+}
+
+.FromToWhen-SubmitButton {
+  border-radius: 3px;
+  border: none;
+  padding: 6px 12px;
+  outline: none;
+  width: 100%;
+  background-color: #fff;
+  color: #10638e;
 }
