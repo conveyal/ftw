@@ -49,7 +49,6 @@
     "budo": "^8.0.0",
     "envify": "^3.4.0",
     "normalize.css": "^3.0.3",
-    "qs": "^6.0.2",
     "standard": "^5.4.1",
     "uglify-js": "^2.6.1"
   },
