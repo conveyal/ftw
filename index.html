@@ -21,7 +21,7 @@
     fromPlaceholder: 'Search for a start address',
     toPlaceholder: 'Search for an end address',
     onSubmit: function(query) {
-      window.open(`http://www.carfreeatoz.com/planner?${qs.stringify(query)}`, '_blank')
+      window.open(`http://www.carfreeatoz.com/planner?${Object.keys(query).map(q => `${q}=${query[q]}`).join('&')}`, '_blank')
     },
     submitText: 'Search'
   })
