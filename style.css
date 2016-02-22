@@ -14,6 +14,13 @@
 
 .FromToWhen .Select-control {
   margin-bottom: 8px;
+  background: transparent;
+}
+
+.FromToWhen .Select-input,
+.FromToWhen .Select-placeholder,
+.FromToWhen .Select-value {
+  padding-left: 30px;
 }
 
 .FromToWhen-When select {
@@ -28,4 +35,82 @@
   width: 100%;
   background-color: #fff;
   color: #10638e;
+}
+
+.FromToWhen-From, .FromToWhen-To {
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.FromToWhen-Star {
+   margin: 14px 5px;
+   position: absolute;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  10px solid transparent;
+   border-bottom: 7px  solid #8ec449;
+   border-left:   10px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+
+.FromToWhen-Star:before {
+   border-bottom: 8px solid #8ec449;
+   border-left: 3px solid transparent;
+   border-right: 3px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -4.5px;
+   left: -6.5px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+
+.FromToWhen-Star:after {
+   position: absolute;
+   display: block;
+   color: red;
+   top: 0.3px;
+   left: -10.5px;
+   width: 0px;
+   height: 0px;
+   border-right: 10px solid transparent;
+   border-bottom: 7px solid #8ec449;
+   border-left: 10px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+.FromToWhen-Pin {
+  margin: 8px 7px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50% 50% 50% 0;
+  background: #F5A81C;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.FromToWhen-Pin:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  margin: 5px 0 0 5px;
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
 }
