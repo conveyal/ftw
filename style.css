@@ -6,6 +6,8 @@
   padding: 5px;
   color: #fff;
   margin: 20px auto;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
 }
 
 .FromToWhen .Select-input {
@@ -35,6 +37,7 @@
   width: 100%;
   background-color: #fff;
   color: #10638e;
+  font-size: inherit;
 }
 
 .FromToWhen-From, .FromToWhen-To {
