@@ -12,7 +12,7 @@
 }
 
 .FromToWhen .Select-input {
-  color: #10638e;
+  color: #333;
 }
 
 .FromToWhen .Select-control {
@@ -37,8 +37,13 @@
   outline: none;
   width: 100%;
   background-color: #fff;
-  color: #10638e;
+  color: #333;
   font-size: inherit;
+  cursor: pointer;
+}
+
+.FromToWhen-SubmitButton:hover {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .FromToWhen-From, .FromToWhen-To {
