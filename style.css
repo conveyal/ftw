@@ -1,13 +1,14 @@
 @import url("node_modules/react-select/dist/react-select.min.css");
 
 .FromToWhen {
-  background-color: #10638e;
+  background-color: rgba(69,90,113,0.8);
   width: 540px;
   padding: 5px;
   color: #fff;
   margin: 20px auto;
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
+  border-radius: 3px;
 }
 
 .FromToWhen .Select-input {
