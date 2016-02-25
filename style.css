@@ -8,6 +8,7 @@
   margin: 20px auto;
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
+  border-radius: 3px;
 }
 
 .FromToWhen .Select-input {
