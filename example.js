@@ -6,10 +6,14 @@ document.body.appendChild(div)
 attach(div, {
   apiKey: process.env.MAPZEN_KEY,
   boundary: {
-    country: 'USA'
+    country: 'USA',
+    circle: {
+      latlng: {lat: 39.7691, lng: -86.1570},
+      radius: 50
+    }
   },
   clearable: false,
   focusLatlng: {lat: 39.7691, lng: -86.1570},
-  onSubmit: query => window.open(`http://www.carfreeatoz.com/planner?${Object.keys(query).map(q => `${q}=${query[q]}`).join('&')}`, '_blank'),
+  onSubmit: (query) => window.open(`http://www.carfreeatoz.com/planner?${Object.keys(query).map((q) => `${q}=${query[q]}`).join('&')}`, '_blank'),
   submitText: 'Search'
 })
