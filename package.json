@@ -50,7 +50,7 @@
     "budo": "^9.2.0",
     "envify": "^3.4.0",
     "normalize.css": "^4.2.0",
-    "standard": "^8.0.0",
+    "standard": "^8.2.0",
     "uglify-js": "^2.6.1"
   },
   "standard": {
